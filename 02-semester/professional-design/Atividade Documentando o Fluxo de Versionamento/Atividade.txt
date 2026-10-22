@@ -1,0 +1,201 @@
+## 🚀 Sessão 1: O Passo a Passo da Criação e Envio
+
+
+
+### **1. Criando o repositório**
+
+
+
+Quando começo um projeto, normalmente começo desenvolvendo ele no meu computador utilizando uma IDE, como o **IntelliJ** ou o **VS Code**.
+
+
+
+Depois entro no **GitHub** e crio um repositório vazio. Escolho o nome do projeto e defino se ele será **público ou privado**.
+
+
+
+### **2. Conectando o projeto**
+
+
+
+Depois de criar o repositório, conecto a pasta do projeto no meu computador com o repositório do GitHub utilizando o **Git**.
+
+
+
+O Git permite controlar as alterações do projeto e fazer a comunicação entre o que está no computador e o que está no GitHub.
+
+
+
+### **3. Fazendo o primeiro envio**
+
+
+
+No primeiro envio, adiciono os arquivos do projeto, faço um **commit** e depois um **push**.
+
+
+
+Pelo terminal, posso fazer isso usando:
+
+
+
+```bash
+
+git add .
+
+git commit -m "Primeiro commit"
+
+git push
+
+```
+
+
+
+No meu caso, normalmente faço esse processo pela própria **IDE**, principalmente pelo IntelliJ ou VS Code.
+
+
+
+Depois do push, os arquivos do projeto aparecem no repositório do GitHub.
+
+
+
+---
+
+
+
+## 📖 Sessão 2: A Anatomia do README Perfeito
+
+
+
+O **README** é a apresentação do projeto. Ele serve para explicar o que foi desenvolvido e ajudar outras pessoas a entenderem o projeto sem precisar olhar todo o código.
+
+
+
+No meu projeto **WorkBoard API**, por exemplo, coloquei informações sobre as funcionalidades, tecnologias utilizadas, perfis de usuários, endpoints, banco de dados e como executar o projeto.
+
+
+
+### **Informações importantes**
+
+
+
+- **Nome e descrição:** mostram o que é o projeto e qual é o objetivo.
+
+- **Funcionalidades:** mostram o que o sistema consegue fazer.
+
+- **Tecnologias:** mostram quais tecnologias foram utilizadas.
+
+- **Como executar:** explica como preparar e rodar o projeto.
+
+- **Banco de dados:** mostra qual banco foi utilizado e como configurar.
+
+- **Status:** informa se o projeto está em desenvolvimento ou finalizado.
+
+- **Autor:** mostra quem desenvolveu o projeto.
+
+
+
+### **O Poder do Markdown**
+
+
+
+Utilizo principalmente **Markdown** para escrever o README, mas também posso utilizar **HTML** quando quero fazer uma estilização diferente.
+
+
+
+O Markdown facilita a organização porque permite utilizar **títulos, negrito, itálico, listas e blocos de código** de uma forma simples.
+
+
+
+Isso deixa o README mais organizado e fácil de ler no GitHub.
+
+
+
+---
+
+
+
+## 🔄 Sessão 3: O Mapa das Atualizações
+
+
+
+### **GitHub Online**
+
+
+
+Posso fazer alterações diretamente pelo **GitHub no navegador**.
+
+
+
+É útil para alterações pequenas e rápidas, mas não é tão prático para desenvolver um projeto inteiro, porque tenho menos recursos do que utilizando uma IDE.
+
+
+
+### **Git pelo Terminal**
+
+
+
+Também posso fazer as atualizações pelo terminal utilizando os comandos do Git.
+
+
+
+```bash
+
+git add .
+
+git commit -m "Descrição da alteração"
+
+git push
+
+```
+
+
+
+Essa é uma forma tradicional de trabalhar com Git porque permite controlar cada etapa das alterações.
+
+
+
+### **IntelliJ e VS Code**
+
+
+
+São as formas que mais utilizo.
+
+
+
+Enquanto desenvolvo, consigo visualizar os arquivos modificados pela própria IDE, fazer o **commit** e depois o **push** para enviar as alterações para o GitHub.
+
+
+
+Para mim, é mais prático porque consigo desenvolver e controlar o Git no mesmo lugar.
+
+
+
+### **GitHub Desktop**
+
+
+
+O **GitHub Desktop** possui uma interface gráfica para visualizar os arquivos modificados, criar commits e enviar as alterações para o GitHub.
+
+
+
+Eu não utilizo ele como principal porque já faço esse processo pelo **IntelliJ e VS Code**.
+
+
+
+### **A Filosofia da Atualização**
+
+
+
+É importante fazer **commits durante o desenvolvimento**, em vez de deixar todas as alterações acumuladas para o final.
+
+
+
+Cada commit pode representar uma alteração ou uma funcionalidade do projeto.
+
+
+
+Isso deixa o histórico mais organizado e facilita entender o que foi alterado. Se acontecer algum problema, também fica mais fácil identificar as alterações feitas.
+
+
+
+Para mim, o Git não serve somente para colocar o projeto no GitHub, mas também para **acompanhar e organizar a evolução do projeto durante o desenvolvimento**.
