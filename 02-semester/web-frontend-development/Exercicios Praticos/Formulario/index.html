@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <script>
+   let degrau = 0.3;
+   let quantidadeDegraus = parseInt(prompt("Digite a quantidade de degraus: "));
+   let alturaTotal = degrau * quantidadeDegraus;
+   
+   if (alturaTotal < 1){
+    alert("A altura total da escada é: " + (alturaTotal * 100) + " cm");
+   } else {
+    alert("A altura total da escada é: " + alturaTotal + " m");
+   }
+   
+</script>
+
+
+
+
+    
+
+    <form class="borda">
+        <div>
+            <label for="valor1">Valor 1:</label>
+            <input type="text" inputmode="numeric" pattern="[0-9]*" name="valor1" id="valor1" required>
+        </div>
+
+        <div>
+            <label for="valor2">Valor 2:</label>
+            <input type="text" inputmode="numeric" pattern="[0-9]*" name="valor2" id="valor2" required>
+
+        </div>
+
+        <div class="opcoes">
+
+            <label for="operacao">Opções:</label><br>
+
+            <input type="radio" name="operacao" value="soma" id="soma">
+            <label for="soma">Soma</label><br>
+
+            <input type="radio" name="operacao" value="subtracao" id="subtracao">
+            <label for="subtracao">Subtração</label><br>
+
+            <input type="radio" name="operacao" value="multiplicacao" id="multiplicacao">
+            <label for="multiplicacao">Multiplicação</label><br>   
+
+            <input type="radio" name="operacao" value="divisao" id="divisao">
+            <label for="divisao">Divisão</label><br>
+        </div>
+
+        <div class="resultado">
+            <label for="resultado">Resultado:</label>
+            <input type="text" name="resultado" readonly>
+        </div>
+
+        <button type="button" id="calcular" >Calcular</button>
+
+    </form>
+
+    <script>
+        document.write("<div class='meunome'>Coloque Seu Nome Aqui</div>");
+    </script>
+
+</body>
+
+</html>

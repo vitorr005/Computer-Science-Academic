@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana;
+    font-size: 18pt;
+}
+
+input[type=text]{
+   font-size: 18pt;
+   border: 1px solid black;
+   background-color: yellow;
+}
+
+label{
+   font-weight: bold;
+}
+
+
+.opcoes label:not([for="operacao"]){
+   font-weight: normal;
+}
+
+.borda{
+ border: 22px double #ff0000;
+ padding: 30px;
+ width: 400px;
+}
+
+.meunome{
+   font-family: Verdana;
+   font-size: 50pt;
+   background-color: black;
+   border-radius: 130px;
+   width: 500px;
+   color: white;
+   text-align: center;
+}
